@@ -1,0 +1,117 @@
+[
+	{
+		"name" : "Ace (Single Set Back)",
+		"variations" : [{
+			"Spread": {
+				"imageName" : "ace-spread.png"
+			}, "H-Back" : {
+				"imageName" : "ace-h-back.png"
+		}}],
+		"imageName" : "ace.png"
+	},
+	{
+		"name" : "Emory and Henry",
+		"variations" : [],
+		"imageName" : "emory-and-henry.png"
+	},
+	{
+		"name" : "Double wing",
+		"variations" : [],
+		"imageName" : ".png"
+	},
+	{
+		"name" : "Empty backfield",
+		"variations" : [],
+		"imageName" : "empty-backfield.png"
+	},
+	{
+		"name" : "Goal line formation",
+		"variations" : [],
+		"imageName" : "goal-line.png"
+	},
+	{
+		"name" : "I formation",
+		"variations" : [{
+			"Offset Strong" : {
+				"imageName" : "i-form-offset-weak.png"
+			},
+			"Offset Weak" : {
+				"imageName" : "i-form-offset-weak.png"
+			},
+			"Power" : {
+					"imageName" : "i-form-power.png"
+			}}],
+		"imageName" : "i-form.png"
+	},
+	{
+		"name" : "Pistol",
+		"variations" : ["Trips", "Max Protect"],
+		"imageName" : "pistol.png"
+	},
+	{
+		"name" : "Pro set",
+		"variations" : [],
+		"imageName" : "pro-set.png"
+	},
+	{
+		"name" : "Shotgun",
+		"variations" : [{
+			"Trips" : {
+				"imageName" : "shotgun-trips.png"
+			}, 
+			"Max Protect" : {
+				"imageName" : "shotgun-max-protect.png"
+		}}],
+		"imageName" : "shotgun.png"
+	},
+	{
+		"name" : "Single wing",
+		"variations" : [],
+		"imageName" : "single-wing.png"
+	},
+	{
+		"name" : "Special Teams",
+		"variations" : [{
+			"Short Punt Formation" : {
+				"imageName" : "short-punt.png"
+		}}]
+	},
+	{
+		"name" : "T formation",
+		"variations" : [],
+		"imageName" : "t-form.png"
+	},
+	{
+		"name" : "V formation",
+		"variations" : [],
+		"imageName" : "v-form.png"
+	},
+	{
+		"name" : "Veer formation",
+		"variations" : [],
+		"imageName" : "veer.png"
+	},
+	{
+		"name" : "Victory",
+		"variations" : [],
+		"imageName" : "victory.png"
+	},
+	{
+		"name" : "Wildcat formation",
+		"variations" : [],
+		"imageName" : "wildcat.png"
+	},
+	{
+		"name" : "Wing T",
+		"variations" : [],
+		"imageName" : "wing-t.png"
+	},
+	{
+		"name" : "Wishbone",
+		"variations" : [{
+			"Flexbone": {
+				"imageName" : "wishbone-flex.png"
+		}}],
+		"imageName" : "wishbone.png"
+	}
+]

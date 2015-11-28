@@ -42,11 +42,10 @@ var bundler = {
 };
 
 gulp.task('styles', function() {
-  return $.rubySass('app/styles/main.scss', {
+  return $.rubySass('./app/styles/main.scss',{
       style: 'expanded',
-      precision: 10,
-      loadPath: ['node_modules/bootstrap-sass/assets/stylesheets']
-    })
+      precision: 10
+  })
     .on('error', $.util.log.bind($.util, 'Sass Error'))
     .pipe($.autoprefixer('last 1 version'))
     .pipe(gulp.dest('dist/styles'))
@@ -157,7 +156,7 @@ gulp.task('test', ['mocha']);
 
 gulp.task('default', ['build']);
 
-gulp.task('watch', sync(['test','clean-bundle', 'serve']), function() {
+gulp.task('watch', sync(['clean-bundle', 'serve']), function() {
   bundler.watch();
   gulp.watch('app/*.html', ['html']);
   gulp.watch('app/styles/**/*.scss', ['styles']);

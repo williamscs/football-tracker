@@ -1,7 +1,9 @@
-import React from 'react';
-import Home from './components/Home';
+import React from 'react'
+import { render } from 'react-dom'
+import FormationView from './components/Formation/FormationView';
+import testdata from '../testdata'
 
 window.React = React;
 const mountNode = document.getElementById('app');
 
-React.render(<Home/>, mountNode);
+render(<FormationView data={testdata} />, mountNode);
