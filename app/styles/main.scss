@@ -1,10 +1,13 @@
 /*$icon-font-path: "/fonts/bootstrap/";
 @import "bootstrap-sass/assets/stylesheets/bootstrap";*/
+@import "colors";
+@import "formation";
+
 
 body {
   background: #fafafa;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #333;
+  color: $primary-color;
 }
 
 .hero-unit {

@@ -1,0 +1,19 @@
+a.formation {
+	text-decoration: none;
+	color: $primary-color;
+	margin: 1rem;
+
+	overflow: hidden;
+	min-width: 500px;
+	float: left;
+	max-width: 550px;
+}
+
+.formation-name {
+	text-align: center;
+}
+
+img.formation-image {
+	height: 177px;
+	width: 550px;
+}
