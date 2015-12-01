@@ -12,7 +12,7 @@ export default class extends Component {
       <div>
         {
           data.map(function(result, index) {
-            return <Formation key={index} formationName={result.name} imageName={result.imageName} />;
+            return <Formation key={index} formationName={result.name} imageName={result.imageName} variations={result.variations} />;
           }
         )}
       </div>

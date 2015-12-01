@@ -2,7 +2,7 @@ a.formation {
 	text-decoration: none;
 	color: $primary-color;
 	margin: 1rem;
-
+	position: relative;
 	overflow: hidden;
 	min-width: 500px;
 	float: left;
@@ -16,4 +16,16 @@ a.formation {
 img.formation-image {
 	height: 177px;
 	width: 550px;
+}
+
+.variation-exists {
+	position: absolute;
+	bottom: 2rem;
+    right: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 10px;
+    background-color: #E87A55;
+    line-height: 1.5rem;
+    text-align: center;
 }
